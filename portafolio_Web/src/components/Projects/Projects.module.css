@@ -1,0 +1,99 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title2{
+  color: var(--color-text);
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 8px;
+}
+.title3{
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 8px;
+}
+.title4{
+  color: var(--color-text);
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 8px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card{
+    height: 800px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #303081;
+    margin-top: 70px;
+    border-radius: 0px 10px;
+}
+.card a{
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
+}
+.projects{
+  width: 100%;
+  height: 700px;
+  border-radius: 0px 10px;
+}
+@media screen and (max-width: 830px) {
+  .container {
+    display: none;
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

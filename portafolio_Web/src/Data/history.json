@@ -1,0 +1,17 @@
+[
+    {
+      "role": "Trabajo en equipo",
+      "experiences": "Integración a cualquier proyecto, mostrando empatía por los demás compañeros",
+      "imageSrc": "history/team.png"
+    },
+    {
+      "role": "Trabajo bajo presión",
+      "experiences": "Resistir largas jornadas de trabajo, para obtener las metas",
+      "imageSrc": "history/work.png"
+    },
+    {
+      "role": "Mejora Continua",
+      "experiences": "Aprender nuevas tecnologias",
+      "imageSrc": "history/dev.png"
+    }
+  ]

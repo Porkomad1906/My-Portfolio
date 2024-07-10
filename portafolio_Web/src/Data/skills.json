@@ -1,0 +1,65 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "React N",
+      "imageSrc": "skills/Rnative.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "skills/Sql.png"
+    }
+    ,
+    {
+      "title": "Typescript",
+      "imageSrc": "skills/Ts.png"
+    }
+    ,
+    {
+      "title": "Angular",
+      "imageSrc": "skills/Angular.png"
+    }
+    ,
+    {
+      "title": "C#",
+      "imageSrc": "skills/Csharp.png"
+    }
+    ,
+    {
+      "title": "C++",
+      "imageSrc": "skills/C++.png"
+    }
+    ,
+    {
+      "title": "Java",
+      "imageSrc": "skills/Java.png"
+    }
+    ,
+    {
+      "title": "Asp.Net",
+      "imageSrc": "skills/Asp.png"
+    }
+    ,
+    {
+      "title": "Kotlin",
+      "imageSrc": "skills/Kotlin.png"
+    }
+  ]
