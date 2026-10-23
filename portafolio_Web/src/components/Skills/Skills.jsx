@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./Skills.module.css";
 import skills from "../../Data/skills.json";
 import history from "../../Data/history.json";
