@@ -15,15 +15,15 @@ export const Projects = () => {
             </div>
             <div className={styles.card}>
               <img className={styles.projects} src={getImageurl("projects/Project2.png")} alt="Project" />
-              <h1 className={styles.title2}>To Do List</h1>
-              <h3 className={styles.title3}>Tecnologías: React Native, Node Js</h3>
-              <p className={styles.title4}>Source: <a href="">To do Task</a></p>
+              <h1 className={styles.title2}>API Consumption</h1>
+              <h3 className={styles.title3}>Tecnologías: Android</h3>
+              <p className={styles.title4}>Source: <a href="https://github.com/Porkomad1906/API-Control.git">The API Consumption Project</a></p>
             </div>
             <div className={styles.card}>
               <img className={styles.projects} src={getImageurl("projects/Project3.png")} alt="Project" />
               <h1 className={styles.title2}>My Portfolio</h1>
               <h3 className={styles.title3}>Tecnologías: React, Node Js, vite</h3>
-              <p className={styles.title4}>Source: <a href="">To do Task</a></p>
+              <p className={styles.title4}>Source: <a href="https://github.com/Porkomad1906/My-Portfolio.git">My Portfolio</a></p>
             </div>
         </div>
     </section>
