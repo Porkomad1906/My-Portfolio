@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css"
 import {getImageurl} from "../../utils"
 
 export const Navbar = () => {
-  //UseState que maneja el estado del menu de hamburguesa
+  //UseState que maneja el estado del menu de hamburguesa.
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
