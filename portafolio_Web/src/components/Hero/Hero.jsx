@@ -1,3 +1,5 @@
+import React from "react";
+
 import styles from "./Hero.module.css";
 import { getImageurl } from "../../utils";
 
@@ -5,9 +7,9 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hey! What&apos;s Up?, I&apos;m Justin</h1>
+        <h1 className={styles.title}>Hey! What's Up?, I'm Justin</h1>
         <p className={styles.description}>
-          I&apos;m not a robot, but I can create anything you can imagine. Thanks for your attention!
+          I'm not a robot, but I can create anything you can imagine. Thanks for your attention!
         </p>
         <a href="mailto:justinmora599@gmail.com.com" className={styles.contactBtn}>
           Contact Me
