@@ -1,29 +1,14 @@
-import { useState } from "react";
+import React, {useState} from 'react';
 import styles from "./Navbar.module.css"
 import {getImageurl} from "../../utils"
 
 export const Navbar = () => {
   //UseState que maneja el estado del menu de hamburguesa
   const [menuOpen, setMenuOpen] = useState(false);
-  const handleTitleClick = (event) => {
-    event.preventDefault();
-
-    if (typeof window === "undefined") {
-      return;
-    }
-
-    window.history.pushState({}, "", import.meta.env.BASE_URL);
-    window.scrollTo({ top: 0, left: 0 });
-    setMenuOpen(false);
-  };
 
   return (
     <nav className={styles.navbar}>
-      <a
-        className={styles.title}
-        href={import.meta.env.BASE_URL}
-        onClick={handleTitleClick}
-      >
+      <a className={styles.title} href="https://porkomad1906.github.io/My-Portfolio/">
         Portfolio
       </a>
       <div className={styles.menu}>
