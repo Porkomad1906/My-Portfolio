@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./Contact.module.css";
 import { getImageurl } from "../../utils";
 
@@ -8,7 +6,7 @@ export const Contact = () => {
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <h2>Contact</h2>
-        <p>If you would like to know about the best future software developer, don't hesitate to contact me!</p>
+        <p>If you would like to know about the best future software developer, don&apos;t hesitate to contact me!</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>

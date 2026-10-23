@@ -1,12 +1,10 @@
-import React from "react";
-
 import styles from "./About.module.css";
 import { getImageurl } from "../../utils";
 
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>Sobre Mí</h2>
+      <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <img
           src={getImageurl("about/justin.png")}
@@ -19,7 +17,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
+                I&apos;m a frontend developer with experience in building responsive
                 and optimized sites.
               </p>
             </div>
@@ -37,10 +35,11 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageurl("about/perfil.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Quién soy?</h3>
+              <h3>Who am I?</h3>
               <p>
-                Programador Junior recien graduado, amante de las buenas prácticas y con mucho deseo de Aprender.
-                Deseando una oportunidad para sobresalir.
+                I&apos;m a recently graduated junior developer, passionate about
+                best practices and eager to keep learning.
+                Looking for an opportunity to stand out.
               </p>
             </div>
           </li>
